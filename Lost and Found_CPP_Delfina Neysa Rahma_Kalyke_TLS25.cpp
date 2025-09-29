@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-// Fungsi untuk membalik array integer yang merepresentasikan ASCII char
 void reverseArray(int arr[], int length)
 {
     for (int i = 0; i < length / 2; i++)
@@ -15,7 +14,7 @@ void reverseArray(int arr[], int length)
 int main()
 {
     int n;
-    cin >> n; // panjang kata atau kalimat dalam jumlah karakter
+    cin >> n; 
     int asciiArr[n];
 
     // Input ASCII kode karakter satu per satu
@@ -34,4 +33,5 @@ int main()
     }
 
     return 0;
+
 }
