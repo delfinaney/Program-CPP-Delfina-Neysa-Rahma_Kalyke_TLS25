@@ -13,7 +13,6 @@ int main()
         cin >> arr[i];
     }
 
-    // Reverse array using swapping without string
     for (int i = 0; i < n / 2; i++)
     {
         int temp = arr[i];
@@ -21,7 +20,6 @@ int main()
         arr[n - i - 1] = temp;
     }
 
-    // Output reversed array
     for (int i = 0; i < n; i++)
     {
         cout << arr[i] << " ";
@@ -29,3 +27,4 @@ int main()
 
     return 0;
 }
+
