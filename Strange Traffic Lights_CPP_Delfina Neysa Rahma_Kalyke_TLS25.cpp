@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-    int t; // waktu dalam detik
+    int t; 
     cin >> t;
 
-    // Gunakan modulus untuk menentukan warna
+   
     int phase = t % 3;
 
     switch (phase)
@@ -24,3 +24,4 @@ int main()
 
     return 0;
 }
+
